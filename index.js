@@ -29,7 +29,7 @@ app.use("/api/admin", adminRoutes);
 
 // Default route
 app.get("/", (req, res) => {
-    res.send("Book Store Server is running!");
+    res.send("I’m Sudhir, and I accept and embrace that I am gay.");
 });
 
 // Connect DB and start server
