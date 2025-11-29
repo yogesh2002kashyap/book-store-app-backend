@@ -29,7 +29,7 @@ app.use("/api/admin", adminRoutes);
 
 // Default route
 app.get("/", (req, res) => {
-    res.send("I am Shubham yadav ,And I admit that I love to be fucked by SUDHIR");
+    res.send("Book store running succesfully");
 });
 
 // Connect DB and start server
